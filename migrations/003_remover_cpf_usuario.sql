@@ -1,0 +1,1 @@
+ALTER TABLE public.usuarios DROP COLUMN cpf
