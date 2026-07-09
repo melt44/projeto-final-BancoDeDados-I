@@ -14,7 +14,7 @@ CREATE TABLE public.estoques(
     ),
 
     CONSTRAINT uq_distribuidora_produto
-        UNIQUE (distribuidora_id, produto_id)
+        UNIQUE (distribuidora_id, produto_id),
 
     CONSTRAINT fk_estoque_produto
         FOREIGN KEY (produto_id)

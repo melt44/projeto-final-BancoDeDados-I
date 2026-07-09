@@ -1,4 +1,4 @@
-CREATE TABLE public.itemproduto(
+CREATE TABLE public.itempedido(
     id_itempedido uuid PRIMARY KEY DEFAULT gen_random_uuid(),
     pedido_id uuid NOT NULL,
     produto_id uuid NOT NULL,

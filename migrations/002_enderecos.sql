@@ -8,10 +8,10 @@ CREATE TABLE public.enderecos (
   complemento varchar(50),
   numero varchar(20),
   cep char(8) NOT NULL,
-  logradouro varchar(200) NOT NULL
+  logradouro varchar(200) NOT NULL,
 
   -- verificações / constraints
 
-  CONSTRAINT validar_cep_numero CHECK (cep ~ '^\d{8}$') -- check pra ver se o cep tem apenas números
+  CONSTRAINT validar_cep_numero CHECK (cep ~ '^\d{8}$'), -- check pra ver se o cep tem apenas números
   CONSTRAINT validar_estado_sigla CHECK (estado_sigla ~ '^[A-Z]{2}$') -- garante que esse campo contenha apenas 2 siglas maiúsculas
 )

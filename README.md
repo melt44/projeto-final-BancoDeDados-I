@@ -35,9 +35,8 @@ projeto-final-BancoDeDados-I/
 │   └── der_ze_delivery.png
 │
 ├── migrations/
-│   ├── 001_usuario.sql
-│   ├── 002_consumidor.sql
-│   ├── 003_distribuidora.sql
+│   ├── 001_usuarios.sql
+│   ├── 002_enderecos.sql
 │   ├── ...
 │
 └── README.md
