@@ -39,6 +39,16 @@ projeto-final-BancoDeDados-I/
 │   ├── 002_enderecos.sql
 │   ├── ...
 │
+├── query/
+|   ├── 01_query_top_costumer_june.sql
+|   ├── ...
+|
+├── seeds/
+|   ├── 01_seed_geral.sql
+|   ├── 02_seed_historico_copa.sql
+|   ├── ...  
+|
+|
 └── README.md
 ```
 
@@ -50,6 +60,8 @@ projeto-final-BancoDeDados-I/
 2. Crie um projeto no Supabase
 3. Abra o **SQL Editor**
 4. Execute os scripts da pasta `migrations` na ordem numérica
+5. (Opcional) Caso queira testar, execute os scripts da pasta `seeds` para povoar o banco de dados
+6. (Opcional) Em caso de consulta, rodar scripts da pasta `query`
 
 ## Observações
 
